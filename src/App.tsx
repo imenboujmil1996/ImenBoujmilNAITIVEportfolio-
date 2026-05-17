@@ -200,10 +200,12 @@ export default function App() {
             className="relative"
           >
             <div className="aspect-[4/5] rounded-3xl overflow-hidden bg-navy-900 relative">
-              {/* Replace with actual image later, using abstract representation for now */}
-              <div className="absolute inset-0 bg-gradient-to-br from-navy-800 to-navy-950 flex items-center justify-center p-12">
-                 <Sparkles size={120} strokeWidth={1} className="text-gold/20" />
-              </div>
+              <img 
+                src="https://lh3.googleusercontent.com/d/1v5RmnO0KzXpzzqbEDwz9bYZZGHO7nG7_" 
+                alt="Imen Boujmil Profile" 
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
+              />
               <div className="absolute bottom-10 left-10 right-10 p-8 glass backdrop-blur-xl rounded-2xl bg-white/5 border border-white/10">
                 <p className="text-ivory font-display text-lg italic leading-relaxed">
                   "Innovation becomes powerful when it remains connected to people, purpose and responsibility."
